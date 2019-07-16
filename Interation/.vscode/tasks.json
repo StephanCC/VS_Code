@@ -6,10 +6,10 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "g++",
+            "command": "make",
             "args": [
-                "-g",
-                "${workspaceFolder}/Test_Array.cpp"
+                //"-g",
+                //"${workspaceFolder}/makefile"
             ],
             "group": {
                 "kind": "build",

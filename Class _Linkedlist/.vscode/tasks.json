@@ -9,7 +9,7 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Test_Array.cpp"
+                "${workspaceFolder}/9_7.cpp"
             ],
             "group": {
                 "kind": "build",

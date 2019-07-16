@@ -4,23 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "echo",
             "type": "shell",
             "command": "g++",
             "args": [
-                "-Wall",
-                "-std=c++17",
-                "${file}",
-                "-o",
-                "${fileBasenameNoExtension}.out",
+                "-g",
+                "${workspaceFolder}/Complex.cpp"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher":[
-                "$gcc"
-            ]
+            }
         }
     ]
 }
